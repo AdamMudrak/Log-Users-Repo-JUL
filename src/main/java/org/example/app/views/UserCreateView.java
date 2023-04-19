@@ -15,8 +15,11 @@ public class UserCreateView {
         title = "Enter phone in format xxx xxx-xxxx: ";
         System.out.print(title);
         String phone = scanner.nextLine();
+        title = "Enter email in format example@mail.com: ";
+        System.out.print(title);
+        String email = scanner.nextLine();
 
-        return new String[] {name, phone};
+        return new String[] {name, phone, email};
     }
 
     // Вывод результата.
