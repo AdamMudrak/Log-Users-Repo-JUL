@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6a6454-d931-4009-86b6-f5f092d11fcc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserCreateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserCreateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserReadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserReadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/views/UserCreateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/views/UserCreateView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/repositories/UserCreateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/repositories/UserCreateRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +322,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681927916235</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Update view to get User's email">
+      <created>1681928575412</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928575412</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Enable email validation">
+      <created>1681928634467</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928634467</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add email to data demo">
+      <created>1681928667033</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928667033</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Modify demo">
+      <created>1681928911947</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928911947</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,10 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add repository to DELETE a User" />
-    <MESSAGE value="Add repository to READ a User's data" />
-    <MESSAGE value="Add repository to UPDATE a User's data" />
-    <MESSAGE value="Add menu to choose option" />
     <MESSAGE value="Add view to get User's data" />
     <MESSAGE value="Add view to get what User to DELETE" />
     <MESSAGE value="Add view to get what User to READ" />
@@ -390,6 +413,10 @@
     <MESSAGE value="Update repositories to work with emails" />
     <MESSAGE value="Add regex and message for email" />
     <MESSAGE value="Add validation for email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add validation for email" />
+    <MESSAGE value="Update view to get User's email" />
+    <MESSAGE value="Enable email validation" />
+    <MESSAGE value="Add email to data demo" />
+    <MESSAGE value="Modify demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify demo" />
   </component>
 </project>

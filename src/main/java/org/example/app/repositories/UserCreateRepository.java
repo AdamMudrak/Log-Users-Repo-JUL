@@ -15,7 +15,7 @@ public class UserCreateRepository {
             Logger.getLogger(UserCreateRepository.class.getName());
 
     public String createUser(User user) {
-        String sql = "INSERT INTO " + Constants.TABLE_USERS + "(name, phone) VALUES(?, ?)";
+        String sql = "INSERT INTO " + Constants.TABLE_USERS + "(name, phone, email) VALUES(?, ?, ?)";
         // PreparedStatement - подготовленное выражение, чтобы избежать SQL-инъекций
         try (PreparedStatement pstmt = DBConn.connect().prepareStatement(sql)) {
             pstmt.setString(1, user.getName());
