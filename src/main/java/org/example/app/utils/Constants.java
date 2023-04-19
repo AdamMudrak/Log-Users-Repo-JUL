@@ -24,6 +24,9 @@ public final class Constants {
     public final static String WRONG_ID_MSG = "Wrong id value.";
     public final static String ID_NO_EXISTS_MSG = "There is no such ID.";
 
+    public final static String EMAIL_RGX = "^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";
+    public final static String WRONG_EMAIL_MSG = "Wrong email.";
+
     // Log messages
     public final static String LOG_DB_ABSENT_MSG = "Database is absent!";
     public final static String LOG_DATA_INPTS_WRONG_MSG = "Data inputs incorrect.";
