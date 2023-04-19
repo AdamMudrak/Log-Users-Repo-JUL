@@ -6,6 +6,7 @@ import org.example.app.exceptions.CreateException;
 import org.example.app.exceptions.DBException;
 import org.example.app.repositories.UserCreateRepository;
 import org.example.app.utils.Constants;
+import org.example.app.utils.EmailValidator;
 import org.example.app.utils.PhoneValidator;
 
 import java.util.HashMap;
@@ -59,6 +60,9 @@ public class UserCreateService {
         if (PhoneValidator.isPhoneValid(data[1].trim()))
             errors.put("phone", Constants.WRONG_PHONE_MSG);
 
+        if (EmailValidator.isEmailValid(data[2].trim()))
+            errors.put("email", Constants.WRONG_EMAIL_MSG);
+
         return errors;
     }
 
@@ -69,6 +73,7 @@ public class UserCreateService {
         // Устанавливаем значения свойств объекта.
         user.setName(data[0].trim());
         user.setPhone(data[1].trim());
+        user.setEmail(data[2].trim());
         // Возвращаем объект.
         return user;
     }
