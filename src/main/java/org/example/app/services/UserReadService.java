@@ -52,6 +52,8 @@ public class UserReadService {
                                 .append(user.getName())
                                 .append(", ")
                                 .append(user.getPhone())
+                                .append(", ")
+                                .append(user.getEmail())
                                 .append("\n")
                 );
                 return stringBuilder.toString();

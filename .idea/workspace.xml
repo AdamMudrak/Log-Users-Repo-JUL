@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6a6454-d931-4009-86b6-f5f092d11fcc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/repositories/UserCreateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/repositories/UserCreateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/repositories/UserReadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/repositories/UserReadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserCreateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserCreateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserReadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserReadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/views/UserCreateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/views/UserCreateView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\hillelProjects\1 CW\Main\30 Debug &amp; Log\1 Log\Log-Users-Repo-JUL\src\main\resources\database" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.app.utils" />
     </key>
   </component>
   <component name="RunManager">
@@ -305,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681927646873</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add regex and message for email">
+      <created>1681927894908</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681927894908</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add validation for email">
+      <created>1681927916235</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681927916235</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,8 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add function to check if table exists in DB" />
-    <MESSAGE value="Add repository to CREATE a User" />
     <MESSAGE value="Add repository to DELETE a User" />
     <MESSAGE value="Add repository to READ a User's data" />
     <MESSAGE value="Add repository to UPDATE a User's data" />
@@ -372,6 +388,8 @@
     <MESSAGE value="Build main class" />
     <MESSAGE value="Add email to User" />
     <MESSAGE value="Update repositories to work with emails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update repositories to work with emails" />
+    <MESSAGE value="Add regex and message for email" />
+    <MESSAGE value="Add validation for email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add validation for email" />
   </component>
 </project>
