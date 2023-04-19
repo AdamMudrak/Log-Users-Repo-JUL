@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6a6454-d931-4009-86b6-f5f092d11fcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/views/UserReadView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,77 @@
       <option name="project" value="LOCAL" />
       <updated>1681921188927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add messages and regexes">
+      <created>1681921233853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921233853</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add connection with DB">
+      <created>1681921270099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921270099</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add function to check if table exists in DB">
+      <created>1681921311696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921311696</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add repository to CREATE a User">
+      <created>1681921361364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921361364</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add repository to DELETE a User">
+      <created>1681921382174</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921382174</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add repository to READ a User's data">
+      <created>1681921408756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921408756</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add repository to UPDATE a User's data">
+      <created>1681921432908</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921432908</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add menu to choose option">
+      <created>1681921473826</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921473826</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add view to get User's data">
+      <created>1681921509026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921509026</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add view to get what User to delete">
+      <created>1681921541317</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921541317</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +168,16 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add function to check if ID exists + service files" />
     <MESSAGE value="Add validation for phone and ID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add validation for phone and ID" />
+    <MESSAGE value="Add messages and regexes" />
+    <MESSAGE value="Add connection with DB" />
+    <MESSAGE value="Add function to check if table exists in DB" />
+    <MESSAGE value="Add repository to CREATE a User" />
+    <MESSAGE value="Add repository to DELETE a User" />
+    <MESSAGE value="Add repository to READ a User's data" />
+    <MESSAGE value="Add repository to UPDATE a User's data" />
+    <MESSAGE value="Add menu to choose option" />
+    <MESSAGE value="Add view to get User's data" />
+    <MESSAGE value="Add view to get what User to delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add view to get what User to delete" />
   </component>
 </project>
