@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6a6454-d931-4009-86b6-f5f092d11fcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\hillelProjects\1 CW\Main\30 Debug &amp; Log\1 Log\Log-Users-Repo-JUL\src\main\resources\database" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.app.App" />
+      <module name="Log-Users-Repo-JUL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -256,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681922144726</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Build main class">
+      <created>1681922187695</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1681922187696</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +297,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add validation for phone and ID" />
     <MESSAGE value="Add messages and regexes" />
     <MESSAGE value="Add connection with DB" />
     <MESSAGE value="Add function to check if table exists in DB" />
@@ -296,6 +321,7 @@
     <MESSAGE value="Enable all options" />
     <MESSAGE value="Finalize app starter" />
     <MESSAGE value="Handle all options" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle all options" />
+    <MESSAGE value="Build main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build main class" />
   </component>
 </project>
