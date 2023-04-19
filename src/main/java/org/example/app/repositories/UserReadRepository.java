@@ -24,7 +24,7 @@ public class UserReadRepository {
 
             List<User> list = new ArrayList<>();
 
-            String sql = "SELECT id, name, phone FROM " + Constants.TABLE_USERS;
+            String sql = "SELECT id, name, phone, email FROM " + Constants.TABLE_USERS;
             ResultSet rs = stmt.executeQuery(sql);
 
             while (rs.next()) {
@@ -32,6 +32,7 @@ public class UserReadRepository {
                 user.setId(rs.getInt("id"));
                 user.setName(rs.getString("name"));
                 user.setPhone(rs.getString("phone"));
+                user.setEmail(rs.getString("email"));
                 list.add(user);
             }
             // Возвращаем коллекцию данных

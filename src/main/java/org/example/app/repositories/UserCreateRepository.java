@@ -20,6 +20,7 @@ public class UserCreateRepository {
         try (PreparedStatement pstmt = DBConn.connect().prepareStatement(sql)) {
             pstmt.setString(1, user.getName());
             pstmt.setString(2, user.getPhone());
+            pstmt.setString(3, user.getEmail());
             pstmt.executeUpdate();
             return Constants.DATA_INSERT_MSG;
         } catch (SQLException e) {
